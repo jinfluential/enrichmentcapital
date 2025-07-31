@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 // Generate future expiration dates
 const getNextFriday = (weeksOut: number): string => {
   const now = new Date();
