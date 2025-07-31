@@ -6,12 +6,6 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  },
-  // Exclude API routes from static export
-  exportPathMap: async function () {
-    return {
-      '/': { page: '/' }
-    }
   }
 };
 

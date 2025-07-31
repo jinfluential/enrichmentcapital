@@ -8,7 +8,7 @@ import ConnectionStatus from './ConnectionStatus';
 import ProgressBar from './ProgressBar';
 import { SearchResults } from '../types/options';
 import { parseSymbols } from '../utils/symbolParser';
-import { searchOptionsData } from '../services/optionsService';
+import { searchOptionsData } from '../services/optionsServiceStatic';
 
 export default function OptionsAnalytics() {
   const [searchResults, setSearchResults] = useState<SearchResults>({
