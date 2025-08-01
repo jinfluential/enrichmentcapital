@@ -1,0 +1,10 @@
+{
+  "name": "enrichment-capital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "cd loui && npm install && npm run build",
+    "dev": "cd loui && npm run dev",
+    "start": "cd loui && npm run start"
+  }
+}
